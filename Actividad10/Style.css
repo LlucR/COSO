@@ -1,0 +1,43 @@
+.enmedio{
+    width: 70%;
+    float: left;
+}
+header{
+    width: 100%;
+    float: left;
+    background-color: white;
+}
+
+.boton{
+    width: 80px;
+    float: left;
+    background-color: white;
+}
+#Imagen{
+    width: 100%;
+    float: left;
+
+}
+
+.Cuerpo{
+    float: left;
+    width: 100%;
+    background-color: white;
+}
+#Azul{
+    text-align: center;
+    float: right;
+    width: 30%;
+    background-color: aquamarine;
+}
+.PaginaGris{
+    background-color: cornflowerblue;
+}
+footer{
+    width:100%;
+    background-color: deeppink;
+    text-align: center;
+    color: white;
+    height: 1000px;
+
+}
