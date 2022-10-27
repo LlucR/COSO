@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Cabeza>
+    <Suceso Descripcion="IBM da a conocer el PC">
+        <tiempo category="Fecha">
+            <Dia>12</Dia>
+            <Mes> 8</Mes>
+            <año> 1981</año>
+        </tiempo>
+    </Suceso>
+    <Suceso Descripcion="Se funda google">
+        <tiempo category="Fecha">
+            <Dia>4</Dia>
+            <Mes>9</Mes>
+            <año>1998</año>
+        </tiempo>
+    </Suceso>
+    <Suceso Descripcion="Se funda facebook">
+        <tiempo category="Fecha">
+            <Dia>4</Dia>
+            <Mes>2</Mes>
+            <año>2004</año>
+        </tiempo>
+    </Suceso>
+</Cabeza>
