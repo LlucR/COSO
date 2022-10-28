@@ -1,23 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<arboles>
+    <latin nombre="Acer monspessulanum">
+        <nombreComun>
+        Arce de Montpellier, Arce menor
+    </nombreComun>
+        <vegetacion>
+        Caducifolio
+    </vegetacion>
+        <altura>De 6 a 10 metros</altura>
+        <Forma>Copa esférica. Tronco principal recto con bifurcaciones. Ramaje colgante </Forma>
+        <Color>Haz verde brillante, envés verde blanquecino </Color>
+        <Resistencia>Heladas fuertes (hasta -15ºC)</Resistencia>
+    </latin>
+    <latin nombre="Olea europea">
+        <nombreComun>Olea europea</nombreComun>
+        <Vegetacion>Perenne</Vegetacion>
+        <Altura>De 8 a 15 metros</Altura>
+        <Forma>Copa irregular. Tronco principal irregular con bifurcaciones.</Forma>
+    </latin>
+    <latin nombre="Ramaje tortuoso">
+        <color>Haz verde oscuro, envés verde plateado</color>
+        <Resistencia>Heladas medias (hasta -10ºC)</Resistencia>
+    </latin>
+    <latin nombre="Platanus orientalis">
+        <nombreComun>Platano </nombreComun>
+        <Vegetacion>Caducifolio</Vegetacion>
+        <Altura>de 20 a 25 metros</Altura>
+        <Forma>Copa ovoidal. Tronco principal recto. Ramaje expandido</Forma>
+        <Colorprima > Haz verde medio, enves verde claro</Colorprima>
+        <ColorOto>Ocre</ColorOto>
+        <Resistencia>Heladas fuertes (hasta -20ºC)</Resistencia>
+    
+    </latin>
+    <latin nombre="Quercus ilex">
+        <NombreComun>Encina</NombreComun>
+        <Vegetacion> Perenne</Vegetacion>
+        <Altura>En torno a 25 metros</Altura>
+        <Forma>Copa esférica o elíptica irregular. Tronco principal recto. Ramaje tortuoso</Forma>
+        <Color>Plateado en hojas jóvenes. En hojas antiguas, haz verde oscuro, envés plateado</Color>
+        <Resistencia>Heladas fuertes (hasta -15ºC)</Resistencia>
+    </latin>
 
-<mensaje>
-    <Remite>
-        <nombre> Alfredo Reino</nombre>
-        <email> alf@ibum.com</email>
-    </Remite>
-    <destinatario>
-        <nombre> Bill Clinton</nombre>
-        <email> president@whitehouse.gov</email>
-    </destinatario>
-    <Asusnto>
-        Hola Bill
-    </Asusnto>
-    <texto>
-        <Parrafo>
-            ¿Hola Que tal?
-        </Parrafo>
-        <EnBlanco>
-            ...
-        </EnBlanco>
-    </texto>
-</mensaje>
+</arboles>
