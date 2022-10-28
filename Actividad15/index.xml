@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Escrito>
+    <Factura n="999" fecha="12-01-2005" Pedido="nº731" FormaPago="EFECTIVO">
+        <Para>Equipos digitales Valladolid</Para>
+        <Calle>Av. Valladolid</Calle>
+        <localidad>Madrid 28015</localidad>
+        <CIF> C.I.F.: Q-9876543</CIF>
+        <telefono>91.777.66.88</telefono>
+        <Fax>91.777.66.99</Fax>
+    </Factura>
+    <DatosCliente>
+        <NCliente>879 </NCliente>
+        <Nombre>Dario Bueno Gutierrez </Nombre>
+        <Direccion>Av.Oporto nº7 4ºd </Direccion>
+        <Poblacion>MAdrid </Poblacion>
+    </DatosCliente>
+    <DatosFactura>
+        <REF Descripcion="Micro Penthium IV 3000 Hz FB800" cantidad="1" precio="230" IVA="16" Importe="266,80 eur.">MII93000F/8</REF>
+        <REF Descripcion="Placa Base QDI P4" cantidad="1" precio="180 eur." IVA="16,0" Importe="208,80 eur." >MB8QDIP4</REF>
+        <REF Descripcion="DIMM DDR 512 MB 3200" cantidad="2" precio="40 eur." IVA="16,0" Importe="92,80">MEDD512M32</REF>
+        <REF Descripcion="DISCO DURO 250GB S-ATA 7200" cantidad="4" precio="120 eur. " IVA="16,0" Importe="556,80" >HD250GSA7</REF>
+
+    </DatosFactura>
+    <Final>
+        <BaseImponible>970,00 eur.</BaseImponible>
+        <IVA>16,0</IVA>
+        <CUTOAIVA>155,20</CUTOAIVA>
+        <Total>1125,20 eur</Total>
+    </Final>
+</Escrito>
