@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE matricula SYSTEM "matricula.dtd">
+<!DOCTYPE matricula [
 <!ELEMENT matricula (personal,pago)>
 <!ELEMENT personal (dni,nombre,titulacion,curso_academico,domicilios)>
 <!ELEMENT dni (#PCDATA)>
@@ -11,7 +11,8 @@
 <!ATTLIST domicilio tipo (familiar|habitual) #REQUIRED>
 <!ELEMENT pago (tipo_matricula)>
 <!ELEMENT tipo_matricula (#PCDATA)>
-<matricula>
+]>
+    <matricula>
     <personal>
         <dni>99223366M</dni>
         <nombre>Juan Pardo Martín</nombre>
