@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="Discos">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Disco" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Titulo" type="xs:string" />
+                            <xs:element name="Artista" type="xs:string" />
+                            <xs:element name="Pais" type="xs:string" />
+                            <xs:element name="Compañia" type="xs:string" />
+                            <xs:element name="precio" type="xs:string" />
+                            <xs:element name="Año" type="xs:string" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
