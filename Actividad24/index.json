@@ -1,0 +1,56 @@
+{
+    "Discos": {
+        "-xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "-xsi:noNamespaceSchemaLocation": "index.xsd",
+        "Disco": [
+            {
+                "Titulo": "Still got the Blues",
+                "Artista": "Gary Moore ",
+                "Pais": "UK",
+                "Compañia": " Virgin Records",
+                "precio": " 10.20",
+                "Año": "1990"
+            },
+            {
+                "Titulo": "One night only",
+                "Artista": "Bee Gees ",
+                "Pais": "UK",
+                "Compañia": " Polydor",
+                "precio": " 10.90",
+                "Año": "1998"
+            },
+            {
+                "Titulo": "When a Men loves a Woman",
+                "Artista": "Percy Sledge ",
+                "Pais": "USA",
+                "Compañia": " Atlantic",
+                "precio": " 8.70",
+                "Año": "1987"
+            },
+            {
+                "Titulo": "Big Willie style",
+                "Artista": "Will Smith",
+                "Pais": "USA",
+                "Compañia": " Columbia",
+                "precio": " 9.90",
+                "Año": "1987"
+            },
+            {
+                "Titulo": "La cancion de Juan Perro",
+                "Artista": "Radio Futura",
+                "Pais": "España",
+                "Compañia": " Sony Music-Ariola",
+                "precio": " 9.90",
+                "Año": "1987"
+            },
+            {
+                "Titulo": "The dock of the Baby",
+                "Artista": "Otis Redding",
+                "Pais": "USA",
+                "Compañia": "Atlantic",
+                "precio": " 7.90",
+                "Año": "1987"
+            }
+        ]
+    }
+}
