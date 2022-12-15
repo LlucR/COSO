@@ -1,0 +1,55 @@
+---
+Escrito:
+  "-xmlns:xsi": http://www.w3.org/2001/XMLSchema-instance
+  "-xsi:noNamespaceSchemaLocation": index.xsd
+  Factura:
+    "-n": 999
+    "-fecha": 12-01-2005
+    "-Pedido": nº731
+    "-FormaPago": EFECTIVO
+    Para: Equipos digitales Valladolid
+    Calle: Av. Valladolid
+    localidad: Madrid 28015
+    CIF:  C.I.F.: Q-9876543
+    telefono: 91.777.66.88
+    Fax: 91.777.66.99
+  DatosCliente:
+    NCliente: 879 
+    Nombre: Dario Bueno Gutierrez 
+    Direccion: Av.Oporto nº7 4ºd 
+    Poblacion: MAdrid 
+  DatosFactura:
+    REF:
+    -
+      "-Descripcion": Micro Penthium IV 3000 Hz FB800
+      "-cantidad": 1
+      "-precio": 230
+      "-IVA": 16
+      "-Importe": 266,80 eur.
+      "#text": MII93000F/8
+    -
+      "-Descripcion": Placa Base QDI P4
+      "-cantidad": 1
+      "-precio": 180 eur.
+      "-IVA": 16,0
+      "-Importe": 208,80 eur.
+      "#text": MB8QDIP4
+    -
+      "-Descripcion": DIMM DDR 512 MB 3200
+      "-cantidad": 2
+      "-precio": 40 eur.
+      "-IVA": 16,0
+      "-Importe": 92,80
+      "#text": MEDD512M32
+    -
+      "-Descripcion": DISCO DURO 250GB S-ATA 7200
+      "-cantidad": 4
+      "-precio": 120 eur. 
+      "-IVA": 16,0
+      "-Importe": 556,80
+      "#text": HD250GSA7
+  Final:
+    BaseImponible: 970,00 eur.
+    IVA: 16,0
+    CUTOAIVA: 155,20
+    Total: 1125,20 eur
