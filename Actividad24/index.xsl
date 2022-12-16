@@ -15,7 +15,7 @@
                     "precio" <xsl:value-of select="precio" />
                     "Año" <xsl:value-of select="Año" />
                 },
-                <xsl:if test="not(position() = last())">,</xsl:if>   
+                <xsl:if test="not(position() = last())">,</xsl:if> 
             </xsl:for-each>
     </xsl:template>
 </xsl:stylesheet>
