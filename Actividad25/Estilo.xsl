@@ -5,14 +5,13 @@
     <xsl:output method="text" indent="yes" />
 
     <xsl:template match="/">
-        document:
             <xsl:apply-templates />
     </xsl:template>
 
     <xsl:template match="*">
         <xsl:text>  </xsl:text><xsl:value-of select="name()" /><xsl:text>: </xsl:text>
             <xsl:apply-templates />
-        <xsl:text>\n</xsl:text>
+        <xsl:text> </xsl:text>
     </xsl:template>
 
     <xsl:template match="text()">
