@@ -30,7 +30,7 @@
             <body>
 
                 <h1 style="text-align:center; border:2px solid black;">
-                    <a href="https://elpais.com/">
+                    <a href="https://www.elmundo.es/">
                         <xsl:value-of select="rss/channel/title" align=""></xsl:value-of>
                     </a>
                 </h1>
