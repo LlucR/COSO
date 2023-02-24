@@ -7,6 +7,7 @@
         <provincia>Madrid</provincia>
         <cif>Q-9876543</cif>
         <telefono></telefono>
+        <fax></fax>
     </datos_empresa>
     <datos_cliente n_cli="c879">
         <nombre>Darío, Bueno Gutiérrez</nombre>

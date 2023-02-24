@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="arboles">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="latin" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence minOccurs="0">
+                            <xs:element name="nombreComun" minOccurs="0" type="xs:string" />
+                            <xs:element name="vegetacion" minOccurs="0" type="xs:string" />
+                            <xs:element name="altura" minOccurs="0" type="xs:string" />
+                            <xs:element name="Forma" minOccurs="0" type="xs:string" />
+                            <xs:element name="Color" minOccurs="0" type="xs:string" />
+                            <xs:element name="Resistencia" minOccurs="0" type="xs:string" />
+                            <xs:element name="Vegetacion" minOccurs="0" type="xs:string" />
+                            <xs:element name="Altura" minOccurs="0" type="xs:string" />
+                            <xs:element name="color" minOccurs="0" type="xs:string" />
+                            <xs:element name="Colorprima" minOccurs="0" type="xs:string" />
+                            <xs:element name="ColorOto" minOccurs="0" type="xs:string" />
+                            <xs:element name="NombreComun" minOccurs="0" type="xs:string" />
+                        </xs:sequence>
+                        <xs:attribute name="nombre" use="required" />
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

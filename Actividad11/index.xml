@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Cabeza>
+<Cabeza xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="index.xsd">
     <Suceso Descripcion="IBM da a conocer el PC">
         <tiempo category="Fecha">
             <Dia>12</Dia>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="rss">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="channel">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="title" type="xs:string" />
+              <xs:element name="description" type="xs:string" />
+              <xs:element name="language" type="xs:string" />
+              <xs:element name="link" type="xs:string" />
+              <xs:element name="lastBuildDate" type="xs:string" />
+              <xs:element name="item" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="guid">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute name="isPermaLink" type="xs:boolean" use="required"
+                              fixed="true" />
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="title" type="xs:string" />
+                    <xs:element name="pubDate" type="xs:string" />
+                    <xs:element name="link" type="xs:string" />
+                    <xs:element name="creator" type="xs:string" />
+                    <xs:element name="alternative" type="xs:string" />
+                    <xs:element name="description" type="xs:string" />
+                    <xs:element name="category" minOccurs="0" type="xs:string" />
+                    <xs:element name="content" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence minOccurs="0">
+                          <xs:element name="credit" minOccurs="0" type="xs:string" />
+                          <xs:element name="title" minOccurs="0" type="xs:string" />
+                          <xs:element name="text" minOccurs="0" type="xs:string" />
+                          <xs:element name="description" minOccurs="0" type="xs:string" />
+                          <xs:element name="thumbnail" minOccurs="0">
+                            <xs:complexType>
+                              <xs:attribute name="url" use="required" />
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="url" use="required" />
+                        <xs:attribute name="type" use="required" />
+                        <xs:attribute name="medium" use="required">
+                          <xs:simpleType>
+                            <xs:restriction base="xs:string">
+                              <xs:enumeration value="image" />
+                              <xs:enumeration value="video" />
+                            </xs:restriction>
+                          </xs:simpleType>
+                        </xs:attribute>
+                        <xs:attribute name="duration" type="xs:integer" />
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="encoded" type="xs:string" />
+                    <xs:element name="group" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="content" maxOccurs="unbounded">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="credit" type="xs:string" />
+                                <xs:element name="title" minOccurs="0" type="xs:string" />
+                                <xs:element name="text" type="xs:string" />
+                                <xs:element name="description" type="xs:string" />
+                              </xs:sequence>
+                              <xs:attribute name="url" use="required" />
+                              <xs:attribute name="type" use="required" fixed="image/jpeg" />
+                              <xs:attribute name="medium" use="required" fixed="image" />
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="keywords" minOccurs="0" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="version" type="xs:decimal" use="required" />
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

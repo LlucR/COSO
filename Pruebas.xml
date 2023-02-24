@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<facturas>
+    <factura num="999">
+        <clients>
+            <client codi_clients="879">
+                <nom>Jose</nom>
+                <telf>199199</telf>
+            </client>
+        </clients>
+        <dades>
+            <item>
+                <ref codi="A132"></ref>
+                <descripccion>dad</descripccion>
+                <quantitat>1</quantitat>
+                <preu>23</preu>
+                <moneda>€</moneda>
+            </item>
+            <item>
+                <ref codi="A132"></ref>
+                <descripccion>dad</descripccion>
+                <quantitat>1</quantitat>
+                <preu>23</preu>
+                <moneda>€</moneda>
+            </item>
+            <item>
+                <ref codi="A132"></ref>
+                <descripccion>dad</descripccion>
+                <quantitat>1</quantitat>
+                <preu>23</preu>
+                <moneda>€</moneda>
+            </item>
+        </dades>
+    </factura>
+</facturas>
