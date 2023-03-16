@@ -5,7 +5,7 @@
     <xsl:output method="text" indent="yes" />
 
     <xsl:template match="/">
-            <xsl:apply-templates />
+        <xsl:apply-templates />
     </xsl:template>
 
     <xsl:template match="*">

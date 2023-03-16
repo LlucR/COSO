@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title><![CDATA[elEconomista  Flash del mercado]]></title>
+    <pubDate><![CDATA[Thu, 01 Jan 1970 01:00:00 +0100]]></pubDate>
+    <lastBuildDate><![CDATA[Thu, 01 Jan 1970 01:00:00 +0100]]></lastBuildDate>
+    <link><![CDATA[http://www.eleconomista.es]]></link>
+    <description><![CDATA[Flash de Mercado]]></description>
+    <language><![CDATA[es]]></language>
+    <webMaster><![CDATA[webmaster@eleconomista.es]]></webMaster>
+    <ttl>10</ttl>
+    <image>
+      <url><![CDATA[http://www.eleconomista.es/imagenes/eleconomista-es-peq.gif]]></url>
+      <title><![CDATA[elEconomista]]></title>
+      <link><![CDATA[http://www.eleconomista.es]]></link>
+      <width><![CDATA[211]]></width>
+      <height><![CDATA[35]]></height>
+    </image>
+  </channel>
+</rss>
